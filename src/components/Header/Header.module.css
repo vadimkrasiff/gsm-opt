@@ -1,0 +1,59 @@
+header {
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3399CC;
+    height: 100px;
+    width: 100%;
+}
+.content {
+    width: 100%;
+    height: 100px;
+}
+.logo {
+    display: flex;
+    align-items: end;
+    height: 80px;
+    margin-left: 150px;
+}
+
+.logo .icon {
+    background-image: url("https://perm.gsm-opt.ru/images/GSM-OPT.svg");
+    background-size: 100% 100%;
+    height: 56px;
+    width: 250px;
+} 
+
+.navigator {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    margin-top: 30px;
+}
+
+.navigator a {
+    font-size: 24px;
+}
+
+.userInfo {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: center;
+    width: 370px;
+    margin-right: 100px;
+    color: white;
+}
+
+.userInfo div {
+    font-size: 24px;
+}
+
+.userInfo .button {
+    cursor: pointer;
+}
+
+
+

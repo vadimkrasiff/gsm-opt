@@ -1,0 +1,18 @@
+.table Table {
+    width: 1200px;
+    box-shadow: 0 0 5px rgb(0 0 0 / 10%)
+}
+
+.table Table:only-child span {
+    font-size: 16px;
+}
+
+.table Button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table Button span {
+    font-size: 16px;
+}
